@@ -116,7 +116,7 @@ namespace HashTableDemo
             }
             if (itemFound)
             {
-                linkedList.Remove(foundItem);
+               linkedList.Remove(foundItem);
             }
         }
         /// <summary>

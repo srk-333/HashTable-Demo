@@ -30,7 +30,12 @@ namespace HashTableDemo
                 else
                     myMapNode.Add(word.ToLower(), 1);
             }
-            Console.WriteLine("Display after Add operation");
+            Console.WriteLine("Display after Add operation \n");
+            myMapNode.Display();
+            Console.WriteLine("\nRemove word avoidable from hash table");
+            string s = "avoidable";
+            myMapNode.Remove(s);
+            Console.WriteLine("Element in hash table after removal \n");
             myMapNode.Display();
         }
     }
